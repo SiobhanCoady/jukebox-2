@@ -30,15 +30,30 @@
         <button id="play-button" class="btn btn-lg btn-primary">Play All</button>
       </h1>
 
+      <!-- Message -->
+      <div id="jukebox-message">
+        Enter a song to play
+      </div>
+      <br>
+
       <!-- Song queue -->
       <ul id="song-queue">
       </ul>
 
+      <!-- Repeat -->
+      <button id="repeat-button" class="btn btn-lg btn-primary">Repeat</button>
+
       <!-- Song form -->
       <form id='song-form'>
+        <input name="song-name" class="form-control" type="text" placeholder="Enter song name..."/>
         <input name="notes" class="form-control" type="text" placeholder="Enter song notes..."/>
         <input class="btn btn-default" type="submit" value="Add Song">
       </form>
+
+      <!-- Played song list -->
+      <div>Played</div>
+      <ul id="played-songs">
+      </ul>
 
     </div>
   </body>

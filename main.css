@@ -1,4 +1,4 @@
-#song-queue {
+#song-queue, #played-songs {
   list-style:none;
   padding-left: 0;
   min-height: 150px;
@@ -7,7 +7,7 @@
   padding: 5px;
 }
 
-#song-queue li {
+#song-queue li, #played-songs li {
   border-color: #282828;
   margin-bottom: 20px;
   background-color: #222222;
@@ -24,6 +24,6 @@
   float: left;
 }
 
-#play-button {
+#play-button, #repeat-button {
   float: right;
 }

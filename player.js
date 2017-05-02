@@ -173,7 +173,6 @@ var jukeboxAudioContext = new AudioContext();
 // number of beats, e.g:
 // [{pitch: 'A', beats: 1}, {pitch: 'B#', beats: 2}, ...]
 var playSong = function(song, bpm, onComplete) {
-
   if (typeof onComplete == "undefined") {
     onComplete = function(){};
   }
